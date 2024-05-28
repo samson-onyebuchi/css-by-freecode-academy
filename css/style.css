@@ -1,0 +1,22 @@
+* {
+    border: 1px solid greenyellow;
+}
+
+body {
+    font-size: 34px;
+}
+
+p {
+    color: chartreuse;
+}
+
+p {
+    color: black;
+}
+h1, h2, h3 {
+    color: blue;
+}
+
+#second {
+    font-style: italic;
+}
