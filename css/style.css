@@ -4,29 +4,57 @@
     box-sizing: border-box;
 }
 
-.container {
-    border: dashed green; /* Removed space between 10 and px */
-    border-top: 5px solid wheat;
-    border-right: 10px dotted yellow;
-    font-size: 1.5rem;
-    margin: 1.5em ;
-    /*margin: 1.5em;
-    margin-right: 2em;
-    margin-bottom: 2em;
-    margin-right: 2em;*/
-    padding: 1.5em; /* Removed solid purple from padding */
-    outline: 5px solid purple;
-    outline-offset: 5px;
-    
+body {
+    margin: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 
-.circle {
-    margin: 3rem auto;
-    background-color: brown;
-    width: 100px;
-    height: 100px;
-    border: 2px solid red;
-    border-radius: 1000px;
-    outline: 2px solid;
-    outline-offset: 0.25rem;
+nav {
+    border: 2px solid #333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+
+
+h1 {
+    padding: 1rm;
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0;
+}
+
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    border-top: 1px solid #333;
+}
+
+li a {
+    display: block;
+}
+
+li a,
+li a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+
+li a:hover,
+li a:focus {
+    background: #333;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem
 }
